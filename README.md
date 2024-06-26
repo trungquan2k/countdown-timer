@@ -4,7 +4,6 @@
 
 Countdown is countdown with pause/resume controls.
 
-### Install [here](https://pub.dartlang.org/packages/countdown)
 
 ### Simple use
 

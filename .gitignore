@@ -27,3 +27,14 @@ migrate_working_dir/
 **/doc/api/
 .dart_tool/
 build/
+
+.dart_tool/extension_discovery/README.md
+.dart_tool/extension_discovery/vs_code.json
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
+.dart_tool/version
+.example/.dart_tool/extension_discovery/README.md
+.example/.dart_tool/extension_discovery/vs_code.json
+.example/.dart_tool/flutter_build/c6ae16ea18f289aab5139a8f90e32622/.filecache
+.example/.dart_tool/flutter_build/c6ae16ea18f289aab5139a8f90e32622/App.framework/App
+.example/.dart_tool/flutter_build/c6ae16ea18f289aab5139a8f90e32622/app.dill
