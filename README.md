@@ -1,15 +1,24 @@
-# timer_countdown
+## I need help to update this package because I'm not playing with dart anymore
 
-A new Flutter plugin project.
+## Countdown - yet another countdown !!
 
-## Getting Started
+Countdown is countdown with pause/resume controls.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### Install [here](https://pub.dartlang.org/packages/countdown)
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Simple use
 
+
+### Use with controls
+```
+import 'package:countdown_timer/countdown_timer.dart';
+  AppCountdown(
+    autoStart: true,
+    onResend: () {
+      return Future.delayed(Duration.zero);
+    },
+    colorTimerStart: Colors.black,
+    colorTimerEnd: Colors.white,
+    controller: cdPhoneController,
+    textResend: Text('resend'),
+  )

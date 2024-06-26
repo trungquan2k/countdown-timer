@@ -1,0 +1,1 @@
+ /Users/sparkminds/Desktop/timer_countdown/example/.dart_tool/flutter_build/c6ae16ea18f289aab5139a8f90e32622/native_assets.yaml: 

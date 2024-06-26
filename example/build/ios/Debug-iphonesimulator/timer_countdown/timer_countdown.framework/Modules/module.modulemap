@@ -1,0 +1,11 @@
+framework module timer_countdown {
+  umbrella header "timer_countdown-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module timer_countdown.Swift {
+  header "timer_countdown-Swift.h"
+  requires objc
+}
